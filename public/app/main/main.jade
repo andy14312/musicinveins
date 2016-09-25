@@ -1,0 +1,11 @@
+.container
+    .jumbotron
+        h1 Music In Veins
+        p Welcome to musicinveins! Your personal music catalogue
+
+    .row(ng-show="identity.isAuthenticated()")
+        .col-md-12
+            div(ng-include="'/partials/main/recently-added'")
+    .row(ng-hide="identity.isAuthenticated()")
+        .col-md-12
+            a(href="/signup")

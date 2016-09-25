@@ -1,0 +1,52 @@
+{
+  "name": "musicinveins",
+  "version": "1.0.0",
+  "description": "A place where you preserve links to your favorite music videos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "4.4.x",
+    "npm": "2.15.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andy14312/musicinveins.git"
+  },
+  "keywords": [
+    "music",
+    "videos",
+    "youtube",
+    "collection",
+    "favorite",
+    "tracks"
+  ],
+  "author": "anand mutyala",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cookie-parser": "^1.4.3",
+    "crypto": "0.0.3",
+    "express": "^4.14.0",
+    "express-session": "^1.14.0",
+    "jade": "^1.11.0",
+    "mongoose": "^4.5.8",
+    "morgan": "^1.7.0",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "stylus": "^0.54.5"
+  },
+  "devDependencies": {
+    "bower": "^1.7.9",
+    "karma": "^1.2.0",
+    "karma-chai-plugins": "^0.7.0",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-mocha": "^1.1.1",
+    "mocha": "^3.0.2"
+  },
+  "bugs": {
+    "url": "https://github.com/andy14312/musicinveins/issues"
+  },
+  "homepage": "https://github.com/andy14312/musicinveins#readme"
+}

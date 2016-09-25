@@ -1,0 +1,7 @@
+.panel.panel-primary
+    .panel-heading.text-center Recently Added Tracks
+    .panel-body
+        .row(ng-repeat="musicTrack in musicTracks | orderBy:musicTrack.added",ng-show="musicTracks.length")
+            .col-md-3 {{musicTrack.added | date:'MMM d'}}
+            .col-md-9
+                a(href="{{musicTrack.videoUrl}}") {{musicTrack.title}}
